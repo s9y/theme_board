@@ -1,0 +1,182 @@
+body {
+    background:#C6DAE5 url(styles/s9y/imageset/bkg.jpg) /* fixed */ top left repeat-x;
+    padding: 8px 0;
+    /* background-color: #ccdee7 */
+    scrollbar-arrow-color:  #26263e;
+}
+
+a:link,a:active,a:visited {
+    color: #26263e; 
+}
+
+.bodyline {
+}
+
+.s9yheader {
+    position:relative;
+    width: 960px;
+    height: 180px;
+    margin: 0px auto 10px auto;
+    text-align: center;
+    background:transparent url(styles/s9y/imageset/s9y-banner-960.jpg) top center no-repeat;
+}
+
+.claim {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+
+.options {
+    margin-top: 5px;
+}
+
+.options a.mainmenu {
+    color: white;
+}
+
+.options a.mainmenu:hover {
+    color: #ffbf00;
+}
+
+.options img {
+    border: 0px;
+    padding: 0px 5px;
+}
+
+#menu {
+    display:block;
+    margin:0 3px 0 0;
+    padding:15px 0 0 0;
+    text-align:right;
+    font-size:8pt;
+    font-weight:bold;
+}
+
+#menu a {
+    margin:0;
+    padding:0;
+}
+
+a.homelink1, a.homelink1:hover, a.homelink1:link, a.homelink1:visited, .s9yheader h1 {
+    color: #fff;
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size : 16pt;padding:0;margin:0;
+    text-decoration: none; 
+}
+
+/* the smaller link in the banner, blog description */
+a.homelink2, a.homelink2:hover, a.homelink2:link, a.homelink2:visited, .s9yheader h2 {
+    color: #fff;
+    font-size: 11pt;padding:0;margin:0;
+    text-decoration: none; 
+}
+
+/* This is the outline round the main forum tables */
+.forumline {
+    background-color: #FFFFFF;
+    border: 1px #26263e solid; 
+}
+
+.contentwrap {
+    padding: 2px 0; 
+    background: transparent url(styles/s9y/imageset/content-bottom-960.gif) bottom left no-repeat;
+    width: 960px;
+}
+
+.contentspace {
+    background-color: white;
+    margin: 0px 0px 4px 0px;
+    padding: 8px;
+}
+
+.contenttop {
+    height:10px;
+    margin:0;
+    padding:0;
+    line-height: 1px;
+    font-size: 1px;
+    background:transparent url(styles/s9y/imageset/content-top-960.gif) no-repeat;
+}
+
+th {
+    color: #FFA34F;
+    font-size: 11px;
+    font-weight : bold;
+    background-color: #26263e;
+    height: 25px;
+    background-image: url(styles/s9y/imageset/cellpic3.gif);
+}
+
+.fulltable {
+    width: 770px;
+}
+
+.postrowclass div {
+    overflow: auto;
+    width: auto;
+}
+
+.headerbar,.forumbg,.forabg {
+    /*background-color: #25253D;*/
+    background: #25253D url(styles/s9y/imageset/s9y-forum-bg.jpg) top left repeat-x;
+}
+
+.content h2, .panel h2,h3 {
+    color: #26263e;
+}
+
+.bg1 {
+    background-color: #DEE3E7; 
+}
+
+.navbar, .bg2 {
+    background-color: #EFEFEF;  
+}
+
+.bg3 {
+    background-color: #D9DFE4; 
+}
+
+li.row {
+    padding: 6px 5px 6px 5px !important; 
+}
+
+ul.profile-icons {
+    padding-right: 25px !important;
+}
+
+.unreadrow {
+    background-color: #F6F4D0;
+}
+
+.searchforumlink {
+    font-weight: normal;
+}
+
+h3.replylink,
+h3.replylink a {
+    font-size: 0.9em !important;
+}
+
+a.navlink_topictitle {
+    font-size: 1.2em; 
+    text-transform: none;
+    color: #AA0000;
+}
+
+.pageination2 {
+    font-size: 4.0em;
+}
+
+#s9y_plug {
+    border-collapse: collapse;
+    margin: 0 20px;
+    width: 900px;
+}
+
+#s9y_plug_left {padding-right: 15px;}
+
+#s9y_plug_right{padding-left: 15px;}
+
+#s9y_plug h3 {margin-top:10px;}
