@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" xml:lang="{S_USER_LANG}">
+<!DOCTYPE html>
+<html lang="{S_USER_LANG}">
 <head>
 
 <meta http-equiv="content-type" content="text/html; charset={S_CONTENT_ENCODING}" />
@@ -100,12 +100,8 @@
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/styleswitcher.js"></script>
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/forum_fn.js"></script>
 
-<link href="{T_THEME_PATH}/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
-<link href="{T_STYLESHEET_LINK}" rel="stylesheet" type="text/css" media="screen, projection" />
+<link href="{T_STYLESHEET_LINK}" rel="stylesheet" type="text/css" />
 
-<link href="{T_THEME_PATH}/normal.css" rel="stylesheet" type="text/css" title="A" />
-<link href="{T_THEME_PATH}/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
-<link href="{T_THEME_PATH}/large.css" rel="alternate stylesheet" type="text/css" title="A++" />
 
 <!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
 	<link href="{T_THEME_PATH}/bidi.css" rel="stylesheet" type="text/css" media="screen, projection" />
@@ -114,15 +110,24 @@
 </head>
 
 <body id="phpbb" class="section-{SCRIPT_NAME} {S_CONTENT_DIRECTION}">
-
-<table width="960" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: 0px auto">
-	<tr>
-		<td class="bodyline">
+		<div class="bodyline">
 		    <div class="s9yheader">
-            	<div id="menu"><a href="http://www.s9y.org" title="Serendipity Homepage">Homepage</a> | <a href="http://blog.s9y.org" title="Latest News from the official Serendipity Blog">Blog</a> | <a href="http://www.s9y.org/12.html" title="Try Serendipity">Download</a> | <a href="http://board.s9y.org/" title="Serendipity user and developer forum">User Forums</a> | <a href="http://spartacus.s9y.org" title="Spartacus online repository for plugins and templates">Plugins / Templates</a> | <a href="http://feeds.feedburner.com/s9y" title="Subscribe to our blog's feed at feedburner" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="Rss icon" style="border:0"/></a></div>
+            	<nav id="nav-global" role="navigation">
+					<div class="layout-container">
+						<a id="open-nav" class="nav-toggle" href="#site-nav">Menu</a>
+
+						<ul id="site-nav" class="nav-collapse">
+							<li><a href="/index.html">Start</a></li>
+							<li><a href="/docs/index.html">Docs</a></li>
+							<li><a href="http://blog.s9y.org">Blog</a></li>
+							<li id="current-page"><a href="http://board.s9y.org">Forums</a></li>
+							<li><a href="http://spartacus.s9y.org/">Plugins</a></li>
+							<li><a href="http://spartacus.s9y.org/index.php?mode=template_all">Themes</a></li>
+							<li><a href="https://github.com/s9y">GitHub</a></li>
+						</ul>
+					</div>
+				</nav>
 		        <div class="claim">
-    			    <h1><a class="homelink1" href="http://board.s9y.org/">{SITENAME}</a></h1>
-    			    <h2><a class="homelink2" href="http://board.s9y.org/">{SITE_DESCRIPTION}</a></h2>
     			    <div class="options optionpart1">
                         <a href="{U_FAQ}" class="mainmenu"><img src="styles/s9y/imageset/icon_mini_faq.gif" width="12" height="13" border="0" alt="{L_FAQ}" hspace="3" />{L_FAQ}</a>&nbsp; 
                         &nbsp;<a href="{U_SEARCH}" class="mainmenu"><img src="styles/s9y/imageset/icon_mini_search.gif" width="12" height="13" border="0" alt="{L_SEARCH}" hspace="3" />{L_SEARCH}</a>&nbsp; 
@@ -146,10 +151,8 @@
                 <div class="contentspace">
 
 <!-- s9y plug -->
-<table id="s9y_plug" cellpadding="0" cellspacing="0">
-<tr>
 
-<td id="s9y_plug_left" width="50%" valign="top">
+<aside id="s9y_plug_left">
     <div class="gensmall" style="text-align:center; font-weight:bold; clear:both;">
         <h3>The Serendipity Handbook</h3>
         You can now read the (german) handbook here: 
@@ -160,14 +163,8 @@
         (LaTeX source).
         <br style="clear:both" /><br />
     </div>
-</td>
+</aside>
 
-
-<td id="s9y_plug_right" width="50%" valign="top">
-        
-</td>
-</tr>
-</table>
 <!-- /s9y plug -->
 
 <div id="wrap">

@@ -42,9 +42,10 @@ ul.topiclist dd {
 	padding: 4px 0;
 }
 
-ul.forums.topiclist dd {
+ul.forums.topiclist dd, ul.topiclist dd.lastpost {
 	float: right;
 }
+
 
 ul.topiclist dfn {
 	/* Labels for post/view counts */
