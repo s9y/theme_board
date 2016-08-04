@@ -1,8 +1,6 @@
 body {
-    background:#C6DAE5 url(styles/s9y/imageset/bkg.jpg) /* fixed */ top left repeat-x;
+    background-color: #ccdee7;
     padding: 8px 0;
-    /* background-color: #ccdee7 */
-    scrollbar-arrow-color:  #26263e;
 }
 
 a:link,a:active,a:visited {
