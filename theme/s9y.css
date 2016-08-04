@@ -27,6 +27,15 @@ a:link,a:active,a:visited {
     text-align: center;
 }
 
+.claim {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    padding-right: 1em;
+    padding-top: 2em;
+    text-align: right;
+}
+
 .options {
     margin-top: 5px;
 }
@@ -80,24 +89,15 @@ a.homelink2, a.homelink2:hover, a.homelink2:link, a.homelink2:visited, .s9yheade
 }
 
 .contentwrap {
-    padding: 2px 0; 
-    background: transparent url(styles/s9y/imageset/content-bottom-960.gif) bottom left no-repeat;
-    width: 960px;
+    padding: 2px 0;
+    width: 100%;
+    max-width: 960px;
 }
 
 .contentspace {
     background-color: white;
     margin: 0px 0px 4px 0px;
     padding: 8px;
-}
-
-.contenttop {
-    height:10px;
-    margin:0;
-    padding:0;
-    line-height: 1px;
-    font-size: 1px;
-    background:transparent url(styles/s9y/imageset/content-top-960.gif) no-repeat;
 }
 
 th {
