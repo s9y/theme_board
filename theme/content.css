@@ -132,7 +132,7 @@ dd.posts, dd.topics, dd.views {
 
 dd.lastpost {
 	width: 25%;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 dd.redirect {
@@ -246,7 +246,7 @@ div[class].topic-actions {
 }
 
 .postbody .content {
-	font-size: 1.3em;
+	font-size: 1em;
 }
 
 .search .postbody {

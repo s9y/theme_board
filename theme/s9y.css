@@ -31,6 +31,7 @@ a:link,a:active,a:visited {
 
 .options a.mainmenu {
     color: white;
+    font-size: 0.9em;
 }
 
 .options a.mainmenu:hover {
@@ -58,15 +59,18 @@ a:link,a:active,a:visited {
 
 a.homelink1, a.homelink1:hover, a.homelink1:link, a.homelink1:visited, .s9yheader h1 {
     color: #fff;
-    font-family: Georgia, Times New Roman, Times, serif;
-    font-size : 16pt;padding:0;margin:0;
+    padding:0;
+    margin:0;
+    font-size: 1.1em;
     text-decoration: none; 
 }
 
 /* the smaller link in the banner, blog description */
 a.homelink2, a.homelink2:hover, a.homelink2:link, a.homelink2:visited, .s9yheader h2 {
     color: #fff;
-    font-size: 11pt;padding:0;margin:0;
+    font-size: 1em;
+    padding:0;
+    margin:0;
     text-decoration: none; 
 }
 
@@ -158,7 +162,7 @@ h3.replylink a {
 }
 
 a.navlink_topictitle {
-    font-size: 1.2em; 
+    font-size: 1em; 
     text-transform: none;
     color: #AA0000;
 }
