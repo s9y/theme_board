@@ -182,3 +182,12 @@ a.navlink_topictitle {
 .topiclist dt {
     font-weight: 400;
 }
+
+.search-box fieldset {
+    padding: 0;
+    padding-bottom: 0.2em;
+}
+
+.search-box input.search, .search-box input.button2 {
+    font-size: 1rem;
+}
