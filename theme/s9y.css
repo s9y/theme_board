@@ -12,6 +12,9 @@ ul {
 
 .contentwrap {
     margin: auto;
+    padding: 2px 0;
+    width: 100%;
+    max-width: 70em;
 }
 
 a:link,a:active,a:visited {
@@ -29,7 +32,7 @@ a:link,a:active,a:visited {
 
 .claim {
     width: 100%;
-    max-width: 960px;
+    max-width: 70em;
     margin: auto;
     padding-right: 1em;
     padding-top: 2em;
@@ -86,12 +89,6 @@ a.homelink2, a.homelink2:hover, a.homelink2:link, a.homelink2:visited, .s9yheade
 .forumline {
     background-color: #FFFFFF;
     border: 1px #26263e solid;
-}
-
-.contentwrap {
-    padding: 2px 0;
-    width: 100%;
-    max-width: 960px;
 }
 
 .contentspace {
@@ -180,4 +177,8 @@ a.navlink_topictitle {
 
 #phpbb fieldset {
     border: none;
+}
+
+.topiclist dt {
+    font-weight: 400;
 }
