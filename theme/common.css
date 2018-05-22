@@ -50,7 +50,7 @@ body {
 }
 
 #nav-global .layout-container::before {
-    background: url(/s9y_phpbb3.2/styles/s9y_theme/s9y.png) 0 0 no-repeat;
+    background: url(/styles/s9y_theme/s9y.png) 0 0 no-repeat;
     background-size: auto auto;
     background-size: contain;
 }
