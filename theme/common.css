@@ -373,7 +373,7 @@ ul.linklist {
 
 ul.linklist > li {
 	float: left;
-	font-size: 1.1em;
+	font-size: 1rem;
 	line-height: 2.2em;
 	list-style-type: none;
 	margin-right: 7px;
