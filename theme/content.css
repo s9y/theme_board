@@ -29,7 +29,7 @@ ul.topiclist dt, ul.topiclist dd {
 ul.topiclist dt {
 	width: 100%;
 	margin-right: -440px;
-	font-size: 1.1em;
+	font-size: 1rem;
 }
 
 ul.topiclist.missing-column dt {
@@ -176,7 +176,7 @@ dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
 	width: 80px;
 	text-align: center;
 	line-height: 2.2em;
-	font-size: 1.2em;
+	font-size: 1rem;
 }
 
 dd.posts, dd.topics, dd.views {
