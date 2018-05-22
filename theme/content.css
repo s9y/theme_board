@@ -402,7 +402,7 @@ p.author {
 .signature {
 	margin-top: 1.5em;
 	padding-top: 0.2em;
-	font-size: 1.1em;
+	font-size: 0.9rem;
 	border-top: 1px solid transparent;
 	clear: left;
 	line-height: 140%;
