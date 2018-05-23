@@ -58,6 +58,10 @@ a.forumtitle {
 	text-decoration: none;
 }
 
+.forum_unread a.forumtitle {
+	font-weight: bold;
+}
+
 a.forumtitle:hover {
 	text-decoration: underline;
 }
@@ -66,6 +70,10 @@ a.topictitle {
 	font-size: 1.2em;
 	text-decoration: none;
 	display: inline;
+}
+
+.topic_unread a.topictitle {
+	font-weight: bold;
 }
 
 a.topictitle:hover {
