@@ -62,6 +62,14 @@ a.forumtitle {
 	font-weight: bold;
 }
 
+.forum_unread_locked a.forumtitle {
+	font-weight: bold;
+}
+
+.forum_unread_subforum a.forumtitle {
+	font-weight: bold;
+}
+
 a.forumtitle:hover {
 	text-decoration: underline;
 }
@@ -73,6 +81,42 @@ a.topictitle {
 }
 
 .topic_unread a.topictitle {
+	font-weight: bold;
+}
+
+.topic_unread_mine a.topictitle {
+	font-weight: bold;
+}
+
+.topic_unread_hot a.topictitle {
+	font-weight: bold;
+}
+
+.topic_unread_hot_mine a.topictitle {
+	font-weight: bold;
+}
+
+.topic_unread_locked a.topictitle {
+	font-weight: bold;
+}
+
+.topic_unread_locked_mine a.topictitle {
+	font-weight: bold;
+}
+
+.sticky_unread a.topictitle {
+	font-weight: bold;
+}
+
+.sticky_unread_mine a.topictitle {
+	font-weight: bold;
+}
+
+.sticky_unread_locked a.topictitle {
+	font-weight: bold;
+}
+
+.sticky_unread_locked_mine a.topictitle {
 	font-weight: bold;
 }
 
