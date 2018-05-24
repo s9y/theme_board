@@ -393,6 +393,7 @@ dl.faq dt {
 
 .announce, .unreadpost {
 	/* Highlight the announcements & unread posts box */
+    background-color: #f8f8d2;
 }
 
 /* Post signature */
