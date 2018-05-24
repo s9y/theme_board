@@ -341,9 +341,10 @@ a:hover	{ text-decoration: underline; }
 }
 
 .post {
-	background-repeat: no-repeat;
-	background-position: 100% 0;
-	position: relative;
+    background-color: #ffffcc;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    position: relative;
     padding: 1em;
     margin-bottom: 1em;
     border: 1px solid #ababab;
