@@ -80,46 +80,6 @@ a.topictitle {
 	display: inline;
 }
 
-.topic_unread a.topictitle {
-	font-weight: bold;
-}
-
-.topic_unread_mine a.topictitle {
-	font-weight: bold;
-}
-
-.topic_unread_hot a.topictitle {
-	font-weight: bold;
-}
-
-.topic_unread_hot_mine a.topictitle {
-	font-weight: bold;
-}
-
-.topic_unread_locked a.topictitle {
-	font-weight: bold;
-}
-
-.topic_unread_locked_mine a.topictitle {
-	font-weight: bold;
-}
-
-.sticky_unread a.topictitle {
-	font-weight: bold;
-}
-
-.sticky_unread_mine a.topictitle {
-	font-weight: bold;
-}
-
-.sticky_unread_locked a.topictitle {
-	font-weight: bold;
-}
-
-.sticky_unread_locked_mine a.topictitle {
-	font-weight: bold;
-}
-
 a.topictitle:hover {
 	text-decoration: underline;
 }
