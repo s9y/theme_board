@@ -58,18 +58,6 @@ a.forumtitle {
 	text-decoration: none;
 }
 
-.forum_unread a.forumtitle {
-	font-weight: bold;
-}
-
-.forum_unread_locked a.forumtitle {
-	font-weight: bold;
-}
-
-.forum_unread_subforum a.forumtitle {
-	font-weight: bold;
-}
-
 a.forumtitle:hover {
 	text-decoration: underline;
 }
