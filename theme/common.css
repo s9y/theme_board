@@ -114,6 +114,13 @@ body {
     clear: both;
 }
 
+/* Hide claim on small screens */
+@media screen and (max-width: 768px) {
+    #claim {
+        display: none;
+    }
+}
+
 main {
     clear: both;
 }
