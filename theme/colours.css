@@ -727,7 +727,12 @@ Colours and backgrounds for buttons.css
 .topic_unread_locked				{ background-image: url("./images/topic_unread_locked.gif"); }
 .topic_unread_locked_mine			{ background-image: url("./images/topic_unread_locked_mine.gif"); }
 
-.topic_unread, .forum_unread {
+.topic_unread,
+.forum_unread,
+.topic_unread_mine,
+.topic.unread_hot,
+.topic.unread_locked,
+.topic.unread_locked_mine {
     background-color: #f8f8d2;
 }
 
